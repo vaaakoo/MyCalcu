@@ -1,2 +1,3 @@
-# Mycalcu
-<h1 class="calc" style="color: blue">Here is calculator</h1>
+# <h1 align="center">MyCalcu</h1>
+<h2 align="center" style="italic">Here is calculator</h2>
+
