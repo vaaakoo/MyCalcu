@@ -1,0 +1,54 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-image: url(https://media.istockphoto.com/vectors/chemical-formulas-handwritten-on-a-white-background-vector-id1347488531?k=20&m=1347488531&s=612x612&w=0&h=8sbmYVIGCOO8ixHEPKpCyVEgP1xTNVes9f8iovBHa4Q=);
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.fundo {
+    background-image: linear-gradient(45deg, #ffe8d6, #f1ddd2);
+    height: 100vh;
+    color:#57473e;
+    text-align:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.calculatore {
+    position:absolute;
+    background-color: #acbbc29d;
+    color: #49466d;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius:15px;
+    padding: 15px;
+}
+.buttun {
+    border: 0;
+    background-color: #8c87ce;
+    width:50px;
+    height:50px;
+    font-size:25px;
+    cursor: pointer;
+    color: #FFF;
+    margin:3px;
+}
+.buttun:hover {
+    background-color: #b159da;
+}
+#result {
+    width:223px;
+    height:30px;
+    margin:5px;
+    background-color:#fff;
+    font-size:25px;
+    color:hsl(23, 32%, 16%);
+    text-align: right;
+}
